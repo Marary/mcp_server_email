@@ -10,7 +10,7 @@
         - 内容(Content): `body`
     - 可选参数(Optional parameters):
         - 抄送(CC): `cc`
-        - 密送(BCC): `bcc_`
+        - 密送(BCC): `bcc`
         - 延迟发送(Delayed sending): `scheduled_at`，格式为`YYYY-MM-DDTHH:MM:SS.ssssssZ`,例如`2025-10-01T12:00:00.000000Z`，表示在2023年10月1日12点发送邮件(Format is `YYYY-MM-DDTHH:MM:SS.ssssssZ`, for example, `2025-10-01T12:00:00.000000Z`, which means sending the email at 12 o'clock on October 1, 2025)
 
 - 群发邮件(Mass email sending) - 发送多封邮件(Send multiple emails)
