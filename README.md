@@ -3,6 +3,7 @@
 ### 该仓库是基于MCP协议和resend开发的发送邮件的服务，可以使用该服务进行发送邮件，包括群发，并且可以通过邮件id查询邮件，更新延迟发送的邮件，以及取消延迟发送的邮件(This repository is a mail-sending service developed based on the MCP protocol and Resend. It can be used to send emails, including mass emails. Additionally, it allows querying emails by ID, updating delayed emails, and canceling delayed emails.)
 
 ## 可以做什么(What can it do)
+以下参数中，`cc`、`bcc`和`to_eamil_list`为list类型，其他参数为string类型(Among the following parameters, `cc`, `bcc`, and `to_email_list` are of list type, while other parameters are of string type)
 - 发送邮件(Send emails) - 发送单封邮件(Send single email)
     - 必要参数(Required parameters):
         - 收件人(Recipient): `to_email`
